@@ -1,0 +1,25 @@
+.match-list {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.match-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.match-details {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.match-score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}

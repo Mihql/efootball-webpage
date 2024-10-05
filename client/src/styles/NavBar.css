@@ -1,0 +1,117 @@
+/* Navigation.css */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    margin: 0;
+    padding: 0;
+}
+
+.efootballhub-net-by .icon-large {
+    background-image: url(https://c.animaapp.com/QXbFrOOV/img/efhub24-icon-large-alpha-png@2x.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 42.83px;
+    position: relative;
+    width: 60px;
+  }
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 10px 20px; /* Padding around the nav */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+.nav-logo {
+    flex: 1; /* Take up space */
+}
+
+.logo {
+    height: 40px; /* Adjust logo size */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.nav-links {
+    flex: 2; /* Make links section wider */
+    display: flex;
+    justify-content: center; /* Center align the links */
+    gap: 30px; /* Space between links */
+}
+
+.nav-link {
+    color: #fff; /* White text */
+    text-decoration: none; /* No underline */
+    font-size: 18px; /* Font size */
+    padding: 10px 15px; /* Padding for clickable area */
+    transition: color 0.3s, background-color 0.3s; /* Smooth transition */
+}
+
+.nav-link:hover {
+    color: #ddd; /* Lighter text on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+.nav-link:active {
+    transform: scale(0.95); /* Slight scale down on click */
+}
+
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-logo {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar-user {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+
+/* Mobile responsive */
+/* @media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+} */

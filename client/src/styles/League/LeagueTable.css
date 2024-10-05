@@ -1,0 +1,97 @@
+/* styles/LeagueTable.css */
+
+/* .league-table-container {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.league-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.league-table th, .league-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.league-table th {
+    background-color: #4CAF50;
+    color: white;
+} */
+
+.league-table-container {
+    padding: 20px;
+    /* background-color: #f9f9f9;   */
+    /* background-color: #000; */
+    /* color: #fff;     */
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+.league-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.league-table th, .league-table td {
+    /* border: 3px solid #444; */
+    /* color: aqua; */
+    border: 3px solid #fff ;
+    padding: 10px;
+    text-align: center;
+    /* background-color: #000; */
+}
+
+.league-table th {
+    /* background-color: #333; */
+    /* color: aqua ; */
+    /* border: 1px solid #333; */
+    background-color: #4CAF50;    
+    /* color: white; */
+    font-size: small;
+}
+
+.team-cell {
+    display: flex;
+    align-items: center;
+}
+
+.team-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.last5-cell {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.result {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.result.W {
+    background-color: green;
+}
+
+.result.D {
+    background-color: gray;
+}
+
+.result.L {
+    background-color: red;
+}
